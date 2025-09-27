@@ -1,5 +1,7 @@
 # 🛒 Simple Shopping Cart
 
+[🌐 Live Demo](https://your-live-project-link.com) 
+
 A **minimal e-commerce web application** built using **React.js**, **Tailwind CSS**, and **Express.js**.  
 This project demonstrates how to list products, manage a cart, and simulate a checkout process — all without a database.
 
@@ -71,7 +73,6 @@ simple-shopping-cart/
 │ ├── src/
 │ │ ├── components/
 │ │ ├── pages/
-│ │ ├── context/
 │ │ ├── App.jsx
 │ │ ├── main.jsx
 │ │ └── index.css
@@ -79,7 +80,6 @@ simple-shopping-cart/
 │ └── tailwind.config.js
 │
 └── README.md
-
 
 ---
 Frontend: React.js, Tailwind CSS
