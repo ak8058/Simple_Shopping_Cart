@@ -1,6 +1,6 @@
 # 🛒 Simple Shopping Cart
 
-[🌐 Live Demo](https://your-live-project-link.com) 
+[🌐 Live Demo](https://simple-shopping-cart-henna.vercel.app/) 
 
 A **minimal e-commerce web application** built using **React.js**, **Tailwind CSS**, and **Express.js**.  
 This project demonstrates how to list products, manage a cart, and simulate a checkout process — all without a database.
@@ -52,34 +52,6 @@ To create a **simple and responsive shopping cart application** where users can:
 ✅ Toast notifications for actions (add/remove).  
 ✅ Modular React structure using `components/`, `pages/`, and `context/`.
 
----
-
-## 📁 Project Structure
-
-simple-shopping-cart/
-│
-├── backend/
-│ ├── controllers/
-│ │ └── productController.js
-│ ├── models/
-│ │ └── productModel.js
-│ ├── routes/
-│ │ └── productRoutes.js
-│ ├── server.js
-│ └── package.json
-│
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ └── index.css
-│ ├── package.json
-│ └── tailwind.config.js
-│
-└── README.md
 
 ---
 Frontend: React.js, Tailwind CSS
