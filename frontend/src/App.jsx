@@ -16,10 +16,12 @@ const App = () => {
 
   // 1. Fetch Products
   useEffect(() => {
-    axios.get("http://localhost:2000/api/products").then((res) => {
-      setProducts(res.data.products);
-      setLoading(false);
-    });
+    axios
+      .get("https://simple-shopping-cart-1.onrender.com/api/products")
+      .then((res) => {
+        setProducts(res.data.products);
+        setLoading(false);
+      });
   }, []);
 
   // 2. Save Cart to LocalStorage
@@ -68,7 +70,9 @@ const App = () => {
       id: item.id,
       quantity: item.quantity,
     }));
-    await axios.post("http://localhost:2000/api/checkout", { order });
+    await axios.post("https://simple-shopping-cart-1.onrender.com/api/checkout", {
+      order,
+    });
     alert("Checkout successful!");
     setCart([]);
     setCartLoading(false);
